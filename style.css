@@ -206,7 +206,16 @@ hr{
 section{
     background-image: url("assets/bg.png");
 }
-
+                           /* <!-- story-container --> */
+.story-titel{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 2.87rem;
+    color: #000;
+    text-align: center;
+    margin-top: 7.5rem;
+}
+                        /* <!-- story-container-end --> */
 
                       /* nav-items-end*/
 @media  screen and (max-width:576px){
@@ -254,5 +263,25 @@ section{
 
     }
                                      /* hero-container-end */
-  
+                                    /* <!-- Standard Curriculum --> */
+
+.Curriculum-container{
+    flex-direction: column;
+    margin-left: 1.031rem;
+    margin-right: 1.031rem;
+                                
+}
+.Curriculum-titel{
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+.Curriculum-box-1{
+    margin-top: 0.678rem;
+}
+.Curriculum-box-2{
+    margin-top: 0.678rem;
+}
+.Curriculum-box-3{
+    margin-top: 0.678rem;
+}
 }
